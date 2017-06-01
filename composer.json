@@ -24,6 +24,7 @@
       "GoogleAnalytic\\AnalyticBundle\\": "."
     }
   },
+  "minimum-stability": "dev",
   "repositories": [
     {
         "type": "vcs",
