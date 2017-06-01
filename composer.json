@@ -4,8 +4,7 @@
   "type": "symfony-bundle",
   "description": "Google Analytics API v4 Symfony",
   "keywords": ["symfony","google","analytics","api","v4"],
-  "homepage": "https://piyush_sl@bitbucket.org/piyush_sl/analytic.git",
-  "license": "MIT",
+  "license": "Private",
   "authors": [
     {
       "name": "Gourav"
@@ -28,7 +27,7 @@
   "repositories": [
     {
         "type": "vcs",
-        "url":  "git@bitbucket.org:piyush_sl/analytic.git"
+        "url":  "git@github.com:logic-staple/GoogleAnalytic.git"
     }
   ]
 }
