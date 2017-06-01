@@ -1,5 +1,34 @@
 {
-    "require": {
-        "vendor/GoogleAnalytic": "1.*"
+  "name": "GoogleAnalytic/AnalyticBundle",
+  "version": "1.0",
+  "type": "symfony-bundle",
+  "description": "Google Analytics API v4 Symfony",
+  "keywords": ["symfony","google","analytics","api","v4"],
+  "homepage": "https://piyush_sl@bitbucket.org/piyush_sl/analytic.git",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gourav"
     }
+  ],
+  "require": {
+    "google/apiclient": "^2.0",
+    "symfony/framework-bundle": ">=2.3",
+    "symfony/twig-bundle": ">=2.0",
+    "twig/twig": ">=1.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "GoogleAnalytic\\AnalyticBundle\\": "."
+    }
+  },
+  "repositories": [
+    {
+        "type": "vcs",
+        "url":  "git@bitbucket.org:piyush_sl/analytic.git"
+    }
+  ]
 }
