@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "LogicStaple\\AnalyticBundle\\": "."
+      "LogicStaple\\AnalyticBundle\\": "./"
     }
   },
   "minimum-stability": "dev"
