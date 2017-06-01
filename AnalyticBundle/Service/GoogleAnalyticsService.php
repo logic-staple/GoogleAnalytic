@@ -1,6 +1,6 @@
 <?php
 
-namespace GoogleAnalytic\AnalyticBundle\Service;
+namespace ILikeIt\AnalyticBundle\Service;
 
 use Google_Client;
 use Google_Service_AnalyticsReporting;
@@ -12,7 +12,7 @@ use Symfony\Component\Config\Definition\Exception\Exception;
 
 /**
  * Class GoogleAnalyticsService
- * @package MediaFigaro\GoogleAnalyticsApi\Service
+ *
  */
 class GoogleAnalyticsService {
 

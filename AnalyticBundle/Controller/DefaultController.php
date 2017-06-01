@@ -1,6 +1,6 @@
 <?php
 
-namespace GoogleAnalytic\AnalyticBundle\Controller;
+namespace ILikeIt\AnalyticBundle\Controller;
 
 use Google_Service_AnalyticsReporting_DateRange;
 use Google_Service_AnalyticsReporting_GetReportsRequest;

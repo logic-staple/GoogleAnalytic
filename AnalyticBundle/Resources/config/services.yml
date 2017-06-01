@@ -1,4 +1,4 @@
 services:
     analytic.api:
-        class: GoogleAnalytic\AnalyticBundle\Service\GoogleAnalyticsService
+        class: ILikeIt\AnalyticBundle\Service\GoogleAnalyticsService
 #        arguments: ["%analytic.google_analytics_json_key%"]

@@ -1,34 +1,28 @@
 {
-  "name": "GoogleAnalytic/AnalyticBundle",
-  "version": "1.0",
+  "name": "logic-staple/analytic-bundle",
   "type": "symfony-bundle",
   "description": "Google Analytics API v4 Symfony",
   "keywords": ["symfony","google","analytics","api","v4"],
-  "homepage": "https://piyush_sl@bitbucket.org/piyush_sl/analytic.git",
-  "license": "MIT",
+  "license": "Private",
   "authors": [
     {
       "name": "Gourav"
     }
   ],
   "require": {
+    "php": "^5.5.9",
     "google/apiclient": "^2.0",
-    "symfony/framework-bundle": ">=2.3",
-    "symfony/twig-bundle": ">=2.0",
-    "twig/twig": ">=1.6"
+    "symfony/framework-bundle": "^2.3",
+    "symfony/twig-bundle": "^2.0",
+    "twig/twig": "^1.6"
   },
   "require-dev": {
     "phpunit/phpunit": "5.5.*"
   },
   "autoload": {
     "psr-4": {
-      "GoogleAnalytic\\AnalyticBundle\\": "."
+      "LogicStaple\\AnalyticBundle\\": "."
     }
   },
-  "repositories": [
-    {
-        "type": "vcs",
-        "url":  "git@bitbucket.org:piyush_sl/analytic.git"
-    }
-  ]
+  "minimum-stability": "dev"
 }
