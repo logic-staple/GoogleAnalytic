@@ -1,6 +1,5 @@
 {
   "name": "google-analytic/analytic-bundle",
-  "version": "1.0",
   "type": "symfony-bundle",
   "description": "Google Analytics API v4 Symfony",
   "keywords": ["symfony","google","analytics","api","v4"],
