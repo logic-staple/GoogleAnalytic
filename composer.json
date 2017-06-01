@@ -1,0 +1,5 @@
+{
+    "require": {
+        "vendor/GoogleAnalytic": "1.*"
+    }
+}

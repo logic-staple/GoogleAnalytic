@@ -1,0 +1,6 @@
+analytic_homepage:
+    path:     /analytic
+    defaults: { _controller: AnalyticBundle:Default:index }
+auth_callback:
+    path:     /callback
+    defaults: { _controller: AnalyticBundle:Default:callback }
